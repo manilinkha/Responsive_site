@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d0f14;
+  color: #cbd5e1;
+  margin: 0;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #ff6b00;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Form Card Container Layout */
+form {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 550px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* High-tech inputs layout styling */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  background-color: #0d0f14;
+  border: 1px solid #30363d;
+  color: #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+/* Beautiful neon focus effect upon selection */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff6b00;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.15);
+}
+
+/* Checkboxes and radio selection design */
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #ff6b00; /* Glows orange natively */
+  margin-right: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Pill-Shaped Interactive Submit Button */
+input[type="submit"] {
+  background: linear-gradient(135deg, #ff6b00, #ff4500);
+  color: #ffffff;
+  border: none;
+  padding: 14px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 107, 0, 0.25);
+  transition: all 0.3s ease;
+  margin-top: 25px;
+  width: 100%; /* Makes submission comfortable on all viewports */
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 0, 0.4);
+}
+
+/* Navigation fallback block inside form page */
+p {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+p a {
+  color: #ff6b00;
+  text-decoration: none;
+  font-weight: 600;
+}
+p a:hover {
+  color: #ff8833;
+}
